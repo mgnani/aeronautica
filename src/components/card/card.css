@@ -1,0 +1,115 @@
+/* movil */
+@media (max-width: 768px) {
+  .structure {
+    height: auto;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 5% 0 10% 0;
+  }
+
+  .image {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../assets/images/avion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .texts {
+    padding: 3% 5%;
+    height: 300px;
+    background-color: rgb(243, 244, 246);
+  }
+
+  .date {
+    padding: 2% 5%;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid grey;
+    display: flex;
+    background-color: rgb(243, 244, 246);
+  }
+}
+
+/* tablet */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cardList {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .structure {
+    height: auto;
+    width: 30%;
+    border: solid 1px black;
+    border-radius: 5px;
+  }
+
+  .image {
+    width: 100%;
+    height: 150px;
+    background-image: url("../../assets/images/avion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .texts {
+    padding: 3% 5%;
+    height: auto;
+    background-color: rgb(243, 244, 246);
+  }
+
+  .date {
+    padding: 2% 5%;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid grey;
+    display: flex;
+    background-color: rgb(243, 244, 246);
+  }
+}
+
+/* monitor */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1025px) {
+  .cardList {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5%;
+  }
+
+  .structure {
+    height: auto;
+    width: 30%;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 5% 0 10% 0;
+  }
+
+  .image {
+    width: 100%;
+    height: 150px;
+    background-image: url("../../assets/images/avion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .texts {
+    padding: 3% 5%;
+    height: auto;
+    background-color: rgb(243, 244, 246);
+  }
+
+  .date {
+    padding: 2% 5%;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid grey;
+    display: flex;
+    background-color: rgb(243, 244, 246);
+  }
+}

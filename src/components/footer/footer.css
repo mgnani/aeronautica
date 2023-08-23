@@ -1,0 +1,115 @@
+/* movil */
+@media (max-width: 768px) {
+  .part_1 {
+    border-top: solid 3px #0a2273;
+    padding: 5% 5% calc(5% - 5px) 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .part_3 {
+    background-color: rgb(243, 244, 246);
+    height: auto;
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #0a2273;
+  }
+
+  .imagen {
+    width: 50px;
+    height: 50px;
+  }
+
+  .socialMedias {
+    background-color: #0a2273;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialMediaIcon {
+    font-size: 20px;
+    color: #ffff;
+    margin: 0 10px;
+  }
+
+  .dataList {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  .icono {
+    margin-right: 10px;
+    color: #0a2273;
+    font-size: 18px;
+  }
+}
+
+/* tablet */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .part_1 {
+    border-top: solid 3px #0a2273;
+    padding: 5% 5% calc(5% - 5px) 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .part_3 {
+    background-color: rgb(243, 244, 246);
+    height: auto;
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #0a2273;
+  }
+
+  .column-2{
+    display: flex;
+  }
+
+  .imagen {
+    width: 100px;
+    height: 100px;
+  }
+
+  .socialMedias {
+    background-color: #0a2273;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialMediaIcon {
+    font-size: 20px;
+    color: #ffff;
+    margin: 0 10px;
+  }
+
+  .dataList {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  .icono {
+    margin-right: 10px;
+    color: #0a2273;
+    font-size: 18px;
+  }
+}
+
+/* monitor */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1025px) {
+}
