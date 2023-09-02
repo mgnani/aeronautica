@@ -31,7 +31,7 @@ const QuienesSomos = () => {
   ]);
 
   return (
-    <div>
+    <>
       {persons.map((person) => {
         return (
           <QuienSomos
@@ -41,7 +41,7 @@ const QuienesSomos = () => {
           />
         );
       })}
-    </div>
+    </>
   );
 };
 export default QuienesSomos;

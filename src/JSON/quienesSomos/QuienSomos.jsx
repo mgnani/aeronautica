@@ -1,11 +1,18 @@
 /* eslint-disable react/prop-types */
-import "./QuienSomos.css"
+import "./QuienSomos.css";
 
 const QuienSomos = (props) => {
   return (
-    <div className="parrafo">
-      <h3>{props.titulo}</h3>
-      <p>{props.texto}</p>
+    <div className="card">
+      <div className="arriba">
+        <div className="izquierda"></div>
+        <div className="derecha">
+          <p className="titulo">{props.titulo}</p>
+        </div>
+      </div>
+      <div className="abajo">
+        <p className="textoContenido">{props.texto}</p>
+      </div>
     </div>
   );
 };

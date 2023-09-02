@@ -20,13 +20,13 @@ const Navbar = () => {
   /* ------------------- estilos de los elementos ------------------- */
 
   const appBarStyle = {
-    backgroundColor: "#ffff",
+    backgroundColor: "rgba(255, 255, 255, 0)",
+    boxShadow: "none",
     display: "flex",
     minHeight: "0",
     width: "100%",
-    borderTop: "solid 10px #0a2273",
-    borderBottom: "solid 7px #0a2273",
-    position: "relative", // Cambia 'your-color-here' al color que desees
+    marginTop: "10px",
+    position: "absolute", // Cambia 'your-color-here' al color que desees
     padding: "0",
   };
 
@@ -78,9 +78,9 @@ const Navbar = () => {
           src={image}
           alt="logo de la institución"
           style={{
-            width: "100px",
-            height: "100px",
-            margin: "5px",
+            width: "80px",
+            height: "80px",
+            margin: "1% 5%",
             position: "absolute",
             zIndex: "1",
           }}
@@ -103,7 +103,16 @@ const Navbar = () => {
             sx={{ display: { xs: "flex", sm: "none" } }}
             edge="start"
           >
-            <FiMenu style={{ fontSize: "30px", color: "#0a2273" }} />
+            <FiMenu
+              style={{
+                fontSize: "35px",
+                color: "#ffff",
+                border: "solid 1px #ffff",
+                padding: "2px",
+                margin: "2px",
+                borderRadius: "3px",
+              }}
+            />
           </IconButton>
 
           <div className="parte2">
