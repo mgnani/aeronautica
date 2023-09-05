@@ -1,11 +1,11 @@
 @media (max-width: 768px) {
-  .card {
+  .cardQuien {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: solid 1px #bdbdbd;
     margin: 5% 0;
     background-color: #ffff;
+    border-radius: 5px;
   }
 
   .separado {
@@ -22,13 +22,13 @@
     width: auto;
     height: auto;
     display: flex;
-    padding: 2% 3%;
+    padding: 3% 5%;
   }
 
   .izquierda {
-    width: 25%;
+    width: 20%;
     height: 100%;
-    border-right: 40px solid transparent;
+    border-right: 24px solid transparent;
     border-bottom: 40px solid #040844;
   }
 
@@ -41,27 +41,23 @@
   }
 
   .titulo {
-    font-size: 28px;
+    font-size: 25px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-  }
-
-  .textoContenido {
-    font-size: 20px;
   }
 }
 
 /* ---------------------------------------------------------- */
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .card {
+  .cardQuien {
     width: 48%;
     display: flex;
     flex-direction: column;
-    border: solid 1px #bdbdbd;
     margin: 2% 0;
     background-color: #ffff;
+    border-radius: 5px;
   }
 
   .separado {
@@ -97,14 +93,14 @@
   }
 
   .titulo {
-    font-size: 28px;
+    font-size: 25px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
 
   .textoContenido {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 

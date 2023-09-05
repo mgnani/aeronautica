@@ -7,6 +7,9 @@ import {
   ListItemIcon,
 } from "@mui/material";
 
+import { Link } from "react-router-dom";
+
+
 // eslint-disable-next-line react/prop-types
 const NavListDrawer = ({ navLinks }) => {
   return (
@@ -17,7 +20,7 @@ const NavListDrawer = ({ navLinks }) => {
             // eslint-disable-next-line react/prop-types
             navLinks.map((item) => (
               <ListItem key={item.title}>
-                <ListItemButton component="a" href={item.path}>
+                <ListItemButton component={Link} to={item.path}>
                 <ListItemIcon style={{margin:"0px", minWidth:"30px"}}>{item.icon}</ListItemIcon>
                   <ListItemText>{item.title}</ListItemText>
                 </ListItemButton>

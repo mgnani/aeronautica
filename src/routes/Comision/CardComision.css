@@ -1,0 +1,65 @@
+/* movil */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+    border-radius: 5px;
+  }
+
+  .fotoRetrato {
+    height: 130px;
+    width: 130px;
+    background-color: blue;
+    border-radius: 5px;
+  }
+
+  .detalles {
+    padding: 0 10px;
+  }
+}
+
+/* tablet */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+.perfilList{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+  .card {
+    width: 48%;
+    height: 150px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+    border-radius: 5px;
+  }
+
+  .fotoRetrato {
+    height: 130px;
+    width: 130px;
+    background-color: blue;
+    border-radius: 5px;
+  }
+
+  .detalles {
+    padding: 0 10px;
+  }
+}
+
+/* monitor */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1025px) {
+}

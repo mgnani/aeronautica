@@ -13,14 +13,17 @@ import { HiOutlineIdentification } from "react-icons/hi";
 import { BiNews } from "react-icons/bi";
 import { FcAbout } from "react-icons/fc";
 
+import { Link } from "react-router-dom";
+
 import NavListDrawer from "./navListDrawer";
 import image from "../../assets/logo.png";
+import "./navbar.css";
 
 const Navbar = () => {
   /* ------------------- estilos de los elementos ------------------- */
 
   const appBarStyle = {
-    backgroundColor: "rgba(255, 255, 255, 0)",
+    backgroundColor: "rgb(10, 30, 103",
     boxShadow: "none",
     display: "flex",
     minHeight: "0",
@@ -33,37 +36,43 @@ const Navbar = () => {
   const buttonStyle = {
     minWidth: "100px",
     marginRight: "10px",
+    color: "#ffff",
+    fontSize: "17px",
   };
 
   const buttonLargeStyle = {
     minWidth: "200px",
     margin: "10px",
+    color: "#ffff",
+    fontSize: "17px",
   };
 
   const buttonBorderStyle = {
     minWidth: "130px",
     marginRight: "10px",
-    border: "solid black 1px",
+    border: "solid #ffff 1px",
+    color: "#ffff",
+    fontSize: "17px",
   };
 
   /* ------------------------------------------------------------------- */
 
   const navLinks = [
     {
-      title: "Novedades",
-      path: "#novedades",
+      title: "Historia",
+      path: "/historia",
       style: buttonStyle,
       icon: <BiNews style={{ fontSize: "20px" }} />,
     },
     {
-      title: "Sobre nosotros",
-      path: "#nosotros",
+      title: "Comision directiva",
+      path: "/comision",
       style: buttonLargeStyle,
       icon: <FcAbout style={{ fontSize: "20px" }} />,
     },
     {
       title: "Afiliarse",
-      path: "#afiliarse",
+      path: "/afiliarse",
       style: buttonBorderStyle,
       icon: <HiOutlineIdentification style={{ fontSize: "20px" }} />,
     },
@@ -74,17 +83,9 @@ const Navbar = () => {
     <>
       <AppBar style={appBarStyle}>
         {/* -------------- */}
-        <img
-          src={image}
-          alt="logo de la institución"
-          style={{
-            width: "80px",
-            height: "80px",
-            margin: "1% 5%",
-            position: "absolute",
-            zIndex: "1",
-          }}
-        />
+        <Link to="/">
+          <img src={image} alt="logo de la institución" className="logo" />
+        </Link>
         {/* ------------ */}
         <Toolbar
           style={{
@@ -118,31 +119,25 @@ const Navbar = () => {
           <div className="parte2">
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navLinks.map((item) => (
-                <Button key={item.title} style={item.style}>
-                  <ListItemIcon
-                    style={{
-                      minWidth: "30px",
-                      margin: "0px",
-                      color: "#0a2273",
-                    }}
-                  >
-                    {item.icon}
-                  </ListItemIcon>{" "}
-                  {item.title}
-                </Button>
+                <Link to={item.path} key={item.title}>
+                  {/* Agrega el componente Link */}
+                  <Button style={item.style}>
+                    <ListItemIcon
+                      style={{
+                        minWidth: "30px",
+                        margin: "0px",
+                        color: "#ffff",
+                      }}
+                    >
+                      {item.icon}
+                    </ListItemIcon>{" "}
+                    {item.title}
+                  </Button>
+                </Link>
               ))}
             </Box>
           </div>
         </Toolbar>
-        {/* <div
-          style={{
-            width: "300px",
-            height: "300px",
-            position: "absolute",
-            backgroundImage: "url(../../assets/logo.png)",
-            zIndex: "100",
-          }}
-        ></div> */}
       </AppBar>
 
       <Drawer

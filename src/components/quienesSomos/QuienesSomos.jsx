@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import QuienSomos from "./quienesSomos/QuienSomos";
+import QuienSomos from "./QuienSomos";
 
 const QuienesSomos = () => {
   const [persons, setPersons] = useState([

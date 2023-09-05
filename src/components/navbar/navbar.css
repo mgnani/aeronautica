@@ -1,0 +1,29 @@
+/* movil */
+@media (max-width: 768px) {
+  .logo {
+    width: 90px;
+    height: 90px;
+    margin: 1% 5%;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+/* tablet */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+    width: 120px;
+    height: 120px;
+    margin: 1% 5%;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+/* monitor */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1025px) {
+}

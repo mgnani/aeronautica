@@ -1,0 +1,31 @@
+/* movil */
+@media (max-width: 768px) {
+  .contorno {
+    margin: 0 5%;
+    margin-top: 30%;
+  }
+
+  .parrafo {
+    margin: 15px 0 30px 0;
+  }
+}
+
+/* tablet */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contorno {
+    margin: 0 5%;
+    margin-top: 20%;
+  }
+
+  .parrafo {
+    margin: 15px 0 30px 0;
+  }
+}
+
+/* monitor */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1025px) {
+}

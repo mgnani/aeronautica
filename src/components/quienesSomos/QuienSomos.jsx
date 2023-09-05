@@ -3,7 +3,7 @@ import "./QuienSomos.css";
 
 const QuienSomos = (props) => {
   return (
-    <div className="card">
+    <div className="cardQuien">
       <div className="arriba">
         <div className="izquierda"></div>
         <div className="derecha">

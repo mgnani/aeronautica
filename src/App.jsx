@@ -1,42 +1,25 @@
 import "./App.css";
-import Navbar from "./components/navbar/navbar";
-import Cards from "./components/card/cards";
-import QuienesSomos from "./JSON/QuienesSomos";
-import Footer from "./components/footer/footer";
+import Novedades from "./components/novedad/novedades";
 import Video from "./components/video/video";
+import PrincipalContent from "./components/principalContent/principalContent";
+import QuienesSomos from "./components/quienesSomos/QuienesSomos";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-
-      <div className="principalContent">
-        <div className="textContent">
-          <h1 className="titleMain">AEAETADU</h1>
-          <p>
-            Somos la Asociación de Ex Alumnos de la Escuela Técnica de
-            Aeronáutica del Uruguay, una comunidad vibrante y apasionada por la
-            aeronáutica que nace del deseo compartido de mantener vivo el
-            sentido de pertenencia entre los egresados de la ETA. Desde nuestros
-            primeros pasos en 2019, hasta nuestra formalización en octubre de
-            2020, hemos buscado potenciar la cultura aeronáutica y ser un punto
-            de referencia tanto en Uruguay como en el exterior.
-          </p>
-          <div className="boton"> Ver más</div>
-        </div>
-      </div>
+      <PrincipalContent />
       <div className="contenido">
         {/* ------------------------------------------------------- */}
         <div className="aboutUs">
           <h2 id="novedades">Novedades</h2>
           <div className="cardList">
-            <Cards />
+            <Novedades />
           </div>
         </div>
 
         {/* ------------------------------------------------------- */}
         <div className="whoAreUs">
-          <h2>Quienes somos</h2>
+          <h2 style={{ color: "#ffff" }}>Quienes somos</h2>
           <div className="conceptTexts">
             <QuienesSomos />
           </div>
@@ -47,10 +30,6 @@ const App = () => {
           <h2>Nuestro trabajo</h2>
           <Video />
         </div>
-
-        {/* ------------------------------------------------------- */}
-        <div className="footers"></div>
-        <Footer />
       </div>
     </>
   );

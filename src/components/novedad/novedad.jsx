@@ -1,23 +1,26 @@
 /* eslint-disable react/prop-types */
 import { BsFillCalendarDateFill } from "react-icons/bs";
-import "./card.css";
+import "./novedad.css";
 
-const Card = (props) => {
+const Novedad = ({ urlImagen, titulo, texto, fecha }) => {
+
   return (
     <div className="structure">
-      <div className="image"></div>
+      <div  className="image" >
+        <img src={urlImagen} alt="imagen representativa al evento" className="imagenEstilo"/>
+      </div>
       <div className="texts">
-        <h3>{props.titulo}</h3>
-        <p>{props.texto}</p>
+        <h3>{titulo}</h3>
+        <p className="texto">{texto}</p>
       </div>
       <div className="date">
         <BsFillCalendarDateFill
           style={{ marginRight: "10px", color: "#0a2273" }}
         />
-        <p>{props.fecha}</p>
+        <p>{fecha}</p>
       </div>
     </div>
   );
 };
 
-export default Card;
+export default Novedad;

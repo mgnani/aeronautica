@@ -1,0 +1,14 @@
+.listadoActividades {
+  margin-bottom: 20px;
+}
+
+.fechaActividad {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(104, 106, 107);
+}
+
+.tituloActividad {
+  font-size: 20px;
+  font-weight: 600;
+}

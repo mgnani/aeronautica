@@ -16,13 +16,16 @@ const Footer = () => {
         </div>
         <div className="column-2">
           <div className="dataList">
-            <MdOutlinePhoneIphone className="icono" /> +598 93 993 916
+            <MdOutlinePhoneIphone className="icono" />
+            <p>+598 93 993 916</p>
           </div>
           <div className="dataList">
-            <GiPositionMarker className="icono" /> Camino Perez
+            <GiPositionMarker className="icono" />
+            <p>Camino Perez</p>
           </div>
           <div className="dataList">
-            <AiOutlineMail className="icono" /> contacto@aexalumnoseta.com.uy
+            <AiOutlineMail className="icono" />
+            <p>contacto@aexalumnoseta.com.uy</p>
           </div>
         </div>
       </div>
