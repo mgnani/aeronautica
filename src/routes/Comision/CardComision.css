@@ -3,9 +3,8 @@
   .card {
     width: 100%;
     height: 150px;
-    margin: 20px 0;
+    margin: 0px 0px 15px 0;
     padding: 10px;
-    background-color: red;
     display: flex;
     flex-direction: row;
     border: solid 2px black;
@@ -15,12 +14,30 @@
   .fotoRetrato {
     height: 130px;
     width: 130px;
-    background-color: blue;
     border-radius: 5px;
   }
 
   .detalles {
     padding: 0 10px;
+  }
+
+  .titular {
+    margin-bottom: 15px;
+  }
+
+  .tituloTitular, .tituloSuplente {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .nombreTitular, .nombreSuplente {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .tanda {
+    font-size: 15px;
+    font-weight: 500;
   }
 }
 
@@ -28,18 +45,17 @@
 /* ----------------------------------------------------------- */
 
 @media (min-width: 769px) and (max-width: 1024px) {
-.perfilList{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+  .perfilList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
   .card {
     width: 48%;
     height: 150px;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
     padding: 10px;
-    background-color: red;
     display: flex;
     flex-direction: row;
     border: solid 2px black;
@@ -49,12 +65,30 @@
   .fotoRetrato {
     height: 130px;
     width: 130px;
-    background-color: blue;
     border-radius: 5px;
   }
 
   .detalles {
     padding: 0 10px;
+  }
+
+  .titular {
+    margin-bottom: 15px;
+  }
+
+  .tituloTitular, .tituloSuplente {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .nombreTitular, .nombreSuplente {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .tanda {
+    font-size: 15px;
+    font-weight: 500;
   }
 }
 
@@ -62,4 +96,48 @@
 /* ----------------------------------------------------------- */
 
 @media (min-width: 1025px) {
+  .perfilList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 32%;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+    border-radius: 5px;
+  }
+
+  .fotoRetrato {
+    height: 130px;
+    width: 130px;
+    border-radius: 5px;
+  }
+
+  .detalles {
+    padding: 0 10px;
+  }
+
+    .titular {
+    margin-bottom: 15px;
+  }
+
+  .tituloTitular, .tituloSuplente {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .nombreTitular, .nombreSuplente {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .tanda {
+    font-size: 15px;
+    font-weight: 500;
+  }
 }

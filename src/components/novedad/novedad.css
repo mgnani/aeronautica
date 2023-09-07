@@ -5,7 +5,7 @@
     width: 100%;
     border: solid 1px black;
     border-radius: 5px;
-    margin: 5% 0 10% 0;
+    margin: 0% 0 5% 0;
   }
 
   .image {
@@ -88,9 +88,8 @@
 /* ----------------------------------------------------------- */
 
 @media (min-width: 1025px) {
-  .cardList {
+   .cardList {
     display: flex;
-    justify-content: space-between;
   }
 
   .structure {
@@ -103,10 +102,15 @@
   .image {
     width: 100%;
     height: 200px;
-    background-image: url("../../assets/images/avion.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .imagenEstilo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .texts {

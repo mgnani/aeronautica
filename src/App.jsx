@@ -1,8 +1,9 @@
-import "./App.css";
 import Novedades from "./components/novedad/novedades";
 import Video from "./components/video/video";
 import PrincipalContent from "./components/principalContent/principalContent";
 import QuienesSomos from "./components/quienesSomos/QuienesSomos";
+
+import "./App.css";
 
 const App = () => {
   return (

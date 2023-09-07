@@ -1,14 +1,123 @@
-.listadoActividades {
-  margin-bottom: 20px;
+/* movil */
+@media (max-width: 768px) {
+  .listadoActividades {
+    margin-bottom: 20px;
+  }
+
+  .fechaActividad {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(104, 106, 107);
+  }
+
+  .tituloActividad {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .boxModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: auto;
+    background-color: #ffff;
+    border: 2px solid #757474;
+    border-radius: 10px;
+    box-shadow: 24;
+  }
+
+  .iconoCerrar {
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: calc(100% - 25px);
+  }
 }
 
-.fechaActividad {
-  font-size: 15px;
-  font-weight: 600;
-  color: rgb(104, 106, 107);
+/* tablet */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .listadoActividades {
+    margin-bottom: 20px;
+  }
+
+  .fechaActividad {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(104, 106, 107);
+  }
+
+  .tituloActividad {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .boxModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: auto;
+    background-color: #ffff;
+    border: 2px solid #757474;
+    border-radius: 10px;
+    box-shadow: 24;
+  }
+
+  .iconoCerrar {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: calc(100% - 40px);
+  }
 }
 
-.tituloActividad {
-  font-size: 20px;
-  font-weight: 600;
+/* monitor */
+/* ----------------------------------------------------------- */
+
+@media (min-width: 1025px) {
+  .listadoActividades {
+    margin-bottom: 20px;
+  }
+
+  .fechaActividad {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(104, 106, 107);
+  }
+
+  .tituloActividad {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .boxModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: auto;
+    background-color: #ffff;
+    border: 2px solid #757474;
+    border-radius: 10px;
+    box-shadow: 24;
+  }
+
+  .iconoCerrar {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: calc(100% - 40px);
+  }
 }

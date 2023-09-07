@@ -26,4 +26,11 @@
 /* ----------------------------------------------------------- */
 
 @media (min-width: 1025px) {
+    .logo {
+    width: 120px;
+    height: 120px;
+    margin: 1% 5%;
+    position: absolute;
+    z-index: 1;
+  }
 }

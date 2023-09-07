@@ -9,7 +9,7 @@ import { GrInstagram } from "react-icons/gr";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="part_1">
         <div className="column-1">
           <img src={imagen} alt="logo de la institución" className="imagen" />
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="part_3">version 1.0</div>
-    </div>
+    </footer>
   );
 };
 

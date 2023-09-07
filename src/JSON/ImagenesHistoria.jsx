@@ -7,17 +7,17 @@ const ImagenesHistoria = () => {
     {
       id: "01122019",
       fecha: "01.12.2019",
-      titulo: "Comenzando el camino.",
+      titulo: "Comenzando el camino",
       texto: "En 2019, exalumnos de la Escuela Técnica de Aeronáutica del Uruguay se unieron para concretar una idea pendiente: la fundación de la Asociación de Ex Alumnos.",
       urlImagen: [
-        "https://photos.app.goo.gl/eYt7HzBR161jKxXv6",
-        "https://photos.app.goo.gl/ZSWuuiVmDpZ5sgkB7",
+        "https://butwhytho.net/wp-content/uploads/2023/07/Hanamichi-Sakuragi-But-Why-Tho-2.jpg",
+        "https://butwhytho.net/wp-content/uploads/2023/07/Hanamichi-Sakuragi-But-Why-Tho-2.jpg",
       ],
     },
     {
       id: "09102020",
       fecha: "09.10.2020",
-      titulo: "Firma de los estatutos y posterior firma del libro de honor.",
+      titulo: "Firma de los estatutos y posterior firma del libro de honor",
       texto: "El 9 de octubre de 2020,con fecha de 10 de octubre, en presencia de los socios fundadores, de la Comisión Directiva conformada por el Presidente, Eduardo Oroná, la Secretaria Karen Morales y el Tesorero Ramón Ramírez, autoridades de la ETA y de la escribana se llevó a cabo la lectura, firma de los estatutos y posterior firma del libro de honor.",
       urlImagen: [
         "https://photos.app.goo.gl/TMV1pf7TCMYeit6X8",
@@ -27,14 +27,14 @@ const ImagenesHistoria = () => {
     {
       id: "29102020",
       fecha: "29.10.2020",
-      titulo: "Visita al Comandante en Jefe.",
+      titulo: "Visita al Comandante en Jefe",
       texto: "Visita al Comandante en Jefe",
       urlImagen: ["https://photos.app.goo.gl/FkizncjrzSBVfYfM7"],
     },
     {
       id: "13082021",
       fecha: "13.08.2021",
-      titulo: "Propuesta de Comodato para el Terreno 'El Nogal' ante la FAU.",
+      titulo: "Propuesta de Comodato para el Terreno 'El Nogal' ante la FAU",
       texto:
         "Se presenta formalmente ante la FAU el interés para la obtención de un comodato del terreno ubicado en Cno Pérez “El Nogal.",
       urlImagen: [
@@ -46,14 +46,14 @@ const ImagenesHistoria = () => {
     {
       id: "27082021",
       fecha: "27.08.2021",
-      titulo: "Personería Jurídica 486/2020 Aprobada por MEC.",
+      titulo: "Personería Jurídica 486/2020 Aprobada por MEC",
       texto: "Según resolución MEC se aprueba la personería jurídica 486/2020.",
       urlImagen: ["https://photos.app.goo.gl/ocrqqTa23oD5k3F66"],
     },
     {
       id: "10102021",
       fecha: "10.10.2021",
-      titulo: "Primer aniversario.",
+      titulo: "Primer aniversario",
       texto:
         "El Director de la ETA Cnel (Av) Heriberto Gancio entrega al Presidente E. Oroná una placa en conmemoración por el 1er aniversario.",
       urlImagen: [
@@ -64,7 +64,7 @@ const ImagenesHistoria = () => {
     {
       id: "25102021",
       fecha: "25.10.2021",
-      titulo: "Debut Histórico: Exalumnos de la ETA en Acto Oficial.",
+      titulo: "Debut Histórico: Exalumnos de la ETA en Acto Oficial",
       texto:
         "Por primera vez, exalumnos de la ETA desfilan en un acto oficial.",
       urlImagen: [
@@ -76,7 +76,7 @@ const ImagenesHistoria = () => {
     {
       id: "04112021",
       fecha: "04.11.2021",
-      titulo: "Almuerzo de Camaraderia.",
+      titulo: "Almuerzo de Camaraderia",
       texto: "Primer Almuerzo de Camaraderia.",
       urlImagen: [
         "https://photos.app.goo.gl/hKfuU7QRwqWppCkh6",
@@ -86,7 +86,7 @@ const ImagenesHistoria = () => {
     {
       id: "22112021",
       fecha: "22.11.2021",
-      titulo: "75 Años de la ETA: Entrega de Placa Conmemorativa.",
+      titulo: "75 Años de la ETA: Entrega de Placa Conmemorativa",
       texto:
         "Se entrega a la ETA una placa en honor a sus 75 años de fundación.",
       urlImagen: [
@@ -99,7 +99,7 @@ const ImagenesHistoria = () => {
       id: "08122021",
       fecha: "08.12.2021",
       titulo:
-        "Marcos Cardozo: Elegido 'Mejor Compañero' por la Asociación de Ex Alumnos de la ETA.",
+        "Marcos Cardozo: Elegido 'Mejor Compañero' por la Asociación de Ex Alumnos de la ETA",
       texto:
         "Se otorga al alumno A.T2° Marcos Cardozo el premio de la Asociación de Ex Alumnos de la ETA del Uruguay por ser elegido como el mejor compañero por sus pares.",
       urlImagen: [
@@ -111,7 +111,7 @@ const ImagenesHistoria = () => {
     {
       id: "19022022",
       fecha: "19.02.2022",
-      titulo: "Asamblea sobre Proyecto 'El Nogal'.",
+      titulo: "Asamblea sobre Proyecto 'El Nogal'",
       texto:
         "Asamblea Extraordinaria para establecer las directrices del proyecto 'El Nogal'.",
       urlImagen: ["https://photos.app.goo.gl/Ph7NCAXVqL8wfaLK9"],
@@ -119,7 +119,7 @@ const ImagenesHistoria = () => {
     {
       id: "08032022",
       fecha: "08.03.2022",
-      titulo: "Inauguración de Cuenta en BROU para Cuotas Sociales.",
+      titulo: "Inauguración de Cuenta en BROU para Cuotas Sociales",
       texto: "Se inaugura la cuenta en BROU para el pago de cuotas sociales.",
       urlImagen: [
         "https://photos.app.goo.gl/k6HDYXxFtKZHC6ZP8",
@@ -129,7 +129,7 @@ const ImagenesHistoria = () => {
     {
       id: "21032022",
       fecha: "21.03.2022",
-      titulo: "Proyecto 'El Nogal': Presentación en CGFA.",
+      titulo: "Proyecto 'El Nogal': Presentación en CGFA",
       texto: "Presentación del proyecto 'El Nogal' ante el CGFA.",
       urlImagen: ["https://photos.app.goo.gl/XG86NJ57dbhJZuSk97"],
     },
@@ -143,7 +143,7 @@ const ImagenesHistoria = () => {
     {
       id: "07052022",
       fecha: "07.05.2022",
-      titulo: "Primeras elecciones .",
+      titulo: "Primeras elecciones",
       texto:
         "Comisión Directiva Presidente Eduardo Oroná - Enrique Portela Secretario Karen Morales - Heber Rodríguez Tesorero Ramón Ramírez - Daniel Barrios. Comisión Fiscal Fernando González - Fernando Cabrera José López - Aldo Marorano Guillermo Arroqui - Daniel Barrios. Comisión Electoral Presidente Carlos Sánchez Secretario Darío Damasco. Vocal José Mario Saravia.",
       urlImagen: ["https://photos.app.goo.gl/atqqwV2cbpXFiWzt8"],
@@ -151,7 +151,7 @@ const ImagenesHistoria = () => {
     {
       id: "12082022",
       fecha: "12.08.2022",
-      titulo: "Construyendo Juntos: La Transformación de Nuestro Complejo.",
+      titulo: "Construyendo Juntos: La Transformación de Nuestro Complejo",
       texto:
         "Desde el primer trazo hasta la última piedra, esta galería captura la esencia y dedicación de nuestros socios y comitiva en la creación de lo que será el corazón de nuestra asociación. A través de estas imágenes, revivimos cada momento de esfuerzo y colaboración, reflejando la pasión y compromiso de la comunidad de Ex Alumnos ETAUy. Cada avance, cada mejora, nos acerca más a nuestra visión: un espacio común donde el legado aeronáutico y la camaradería perduren.",
       urlImagen: [
