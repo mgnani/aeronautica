@@ -81,7 +81,7 @@
 
 @media (min-width: 1025px) {
   .workSpace {
-    margin: 0 5%;
+    margin: 0 10%;
   }
 
   .caratula {
@@ -104,7 +104,7 @@
 
   .tituloCaratula {
     position: absolute;
-    margin-left: 5%;
+    margin-left: 10%;
     top: 300px;
     z-index: 1;
     color: #ffff;

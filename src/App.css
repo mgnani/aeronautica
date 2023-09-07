@@ -143,14 +143,14 @@
   .textContent {
     height: 100%;
     width: 100%;
-    padding: 13% 5%;
+    padding: 13% 10%;
     background-color: rgba(0, 0, 0, 0.6);
   }
 
    .aboutUs,
   .whoAreUs,
   .ourJob {
-    padding: 2% 5%;
+    padding: 2% 10%;
   } 
 
   .whoAreUs {

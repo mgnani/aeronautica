@@ -127,12 +127,12 @@
   }
 
   .tituloTitular, .tituloSuplente {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
   }
 
   .nombreTitular, .nombreSuplente {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
   }
 
