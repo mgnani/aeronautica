@@ -18,7 +18,7 @@ const Cards = () => {
       titulo: "Visita al Comandante en Jefe",
       texto: "Visita al Comandante en Jefe FAU",
       fecha: "29 de octubre de 2020",
-      urlImagen: "https://photos.app.goo.gl/FkizncjrzSBVfYfM7",
+      urlImagen: "https://lh3.googleusercontent.com/pw/AIL4fc8o4H_pDr2lOEgtuOHb2r70Eaq0spZHGAcyqD4N2up2lcD0gjvBeUiFr9ce3e-UwF2LeDuGjTV5xwTtG3E-pAVsX21bwgyRBNqYOI9Ia969Q0UKQzPA3rLHR3cBieQXNkuBQ8oq7dhAzcW9laV1zbyD=w878-h659-s-no?authuser=0",//https://photos.app.goo.gl/FkizncjrzSBVfYfM7
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const Cards = () => {
       texto:
         "El Director de la ETA Cnel (Av) Heriberto Gancio entrega al Presidente E. Oroná una placa en conmemoración por el 1er aniversario.",
       fecha: " --  ",
-      urlImagen: "https://photos.app.goo.gl/D2gmTZAXafZuhnTTA",
+      urlImagen: "https://lh3.googleusercontent.com/pw/AIL4fc_U7faG9EVeJmO7iF0xqadKjOyg3leXeI2fbydyWxxnnTSIg5bb9DjXQwljk4loxI3S1FvKaEvFqAVmuQh7hx-RR5p9xVoLOXeQWt57tjGJwC4ZbTP3P7xqbXE_uy9Ygxs5db-MItrrZz_tZFH2SxEQ=w1299-h585-s-no",//https://photos.app.goo.gl/D2gmTZAXafZuhnTTA
     },
   ]);
 
