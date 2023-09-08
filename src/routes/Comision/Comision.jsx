@@ -65,7 +65,7 @@ const Comision = () => {
         <h1 className="tituloCaratula">Comisión</h1>
         <img
           className="imagenCaratula"
-          src="https://butwhytho.net/wp-content/uploads/2023/07/Hanamichi-Sakuragi-But-Why-Tho-2.jpg"
+          src="https://lh3.googleusercontent.com/pw/AIL4fc9CRXCXD-s0A3PhwZYttbrXR3P3sWaZesmUGuQgBqxSssUsX5PP-e4UNjfKRhS6cJk2iIut4CeDDh9WzONcdeNy34FiSYUHyTu4uYDLoSUXKVNxngcZKCAOyRLasI52_zpSuIfqDAJI5B8HH5-K4TB6=w649-h564-s-no"
           alt=""
         />
       </div>
