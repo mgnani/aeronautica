@@ -3,9 +3,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 5% 0;
+    margin: 5% 0 40px;
     background-color: #ffff;
-    border-radius: 5px;
+    border-radius: 15px;
   }
 
   .separado {
@@ -16,13 +16,14 @@
     width: auto;
     height: 40px;
     display: flex;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
   }
 
   .abajo {
     width: auto;
     height: auto;
     display: flex;
-    padding: 3% 5%;
+    padding: 15px 20px;
   }
 
   .izquierda {
@@ -55,9 +56,9 @@
     width: 48%;
     display: flex;
     flex-direction: column;
-    margin: 2% 0;
+    margin: 2% 0 40px;
     background-color: #ffff;
-    border-radius: 5px;
+    border-radius: 15px;
   }
 
   .separado {
@@ -68,13 +69,14 @@
     width: auto;
     height: 40px;
     display: flex;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
   }
 
   .abajo {
     width: auto;
     height: auto;
     display: flex;
-    padding: 2% 3%;
+    padding: 15px 20px;
   }
 
   .izquierda {
@@ -110,9 +112,9 @@
     width: 48%;
     display: flex;
     flex-direction: column;
-    margin: 0 0 1% 0;
+    margin: 0 0 40px 0;
     background-color: #ffff;
-    border-radius: 5px;
+    border-radius: 15px;
   }
 
   .separado {
@@ -123,13 +125,14 @@
     width: auto;
     height: 40px;
     display: flex;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
   }
 
   .abajo {
     width: auto;
     height: auto;
     display: flex;
-    padding: 2% 3%;
+    padding: 15px 20px;
   }
 
   .izquierda {

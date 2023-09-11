@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+p{
+  margin-bottom: 0;
+}
 /* movil */
 @media (max-width: 768px) {
   h1,

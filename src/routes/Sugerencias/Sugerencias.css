@@ -5,6 +5,23 @@
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
+.check-img{
+    height: 70px;
+}
+.modal-sugerencia{
+    text-align: center;
+}
+.comentario{
+    font-size: 12px;
+    transform: translateY(-5px);
+    color: gray;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+.form-container h2{
+    margin-bottom: 5px !important;
+}
 .required::after {
     content: " *";
     color: red;

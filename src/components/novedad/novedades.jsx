@@ -18,7 +18,7 @@ const Cards = () => {
       titulo: "Visita al Comandante en Jefe",
       texto: "Visita al Comandante en Jefe FAU",
       fecha: "29 de octubre de 2020",
-      urlImagen: "https://lh3.googleusercontent.com/pw/AIL4fc8o4H_pDr2lOEgtuOHb2r70Eaq0spZHGAcyqD4N2up2lcD0gjvBeUiFr9ce3e-UwF2LeDuGjTV5xwTtG3E-pAVsX21bwgyRBNqYOI9Ia969Q0UKQzPA3rLHR3cBieQXNkuBQ8oq7dhAzcW9laV1zbyD=w878-h659-s-no?authuser=0",//https://photos.app.goo.gl/FkizncjrzSBVfYfM7
+      urlImagen: "https://lh3.googleusercontent.com/pw/AIL4fc8o4H_pDr2lOEgtuOHb2r70Eaq0spZHGAcyqD4N2up2lcD0gjvBeUiFr9ce3e-UwF2LeDuGjTV5xwTtG3E-pAVsX21bwgyRBNqYOI9Ia969Q0UKQzPA3rLHR3cBieQXNkuBQ8oq7dhAzcW9laV1zbyD=w716-h537-s-no?authuser=0",//https://photos.app.goo.gl/FkizncjrzSBVfYfM7
     },
     {
       id: 3,
