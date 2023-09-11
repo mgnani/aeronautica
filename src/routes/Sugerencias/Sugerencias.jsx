@@ -10,7 +10,7 @@ import { ImCross } from "react-icons/im";
 const Sugerencias = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  const [dni, setDni] = useState(null);
+  const [dni, setDni] = useState(0);
   const [sugerencia, setSug] = useState("");
   const [open, setOpen] = useState(false);
   const [successMessage, setSuccessMessage] = useState(""); // Nuevo estado para el mensaje de éxito

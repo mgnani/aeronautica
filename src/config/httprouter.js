@@ -14,5 +14,5 @@ export const getSugerencia = (data) => {
   return axios.get('http://localhost:9000/api/sugerencia', data);
 };
 export const postPaypal = (data) => {
-  return axios.post('http://localhost:9000/api/create-payment', data);
+  return axios.post('http://localhost:9000/create-payment', data);
 };

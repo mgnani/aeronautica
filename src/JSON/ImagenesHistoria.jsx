@@ -10,8 +10,8 @@ const ImagenesHistoria = () => {
       titulo: "Comenzando el camino",
       texto: "En 2019, exalumnos de la Escuela Técnica de Aeronáutica del Uruguay se unieron para concretar una idea pendiente: la fundación de la Asociación de Ex Alumnos.",
       urlImagen: [
-        "https://lh3.googleusercontent.com/pw/AIL4fc9CRXCXD-s0A3PhwZYttbrXR3P3sWaZesmUGuQgBqxSssUsX5PP-e4UNjfKRhS6cJk2iIut4CeDDh9WzONcdeNy34FiSYUHyTu4uYDLoSUXKVNxngcZKCAOyRLasI52_zpSuIfqDAJI5B8HH5-K4TB6=w649-h564-s-no",
-        "https://lh3.googleusercontent.com/pw/AIL4fc9CRXCXD-s0A3PhwZYttbrXR3P3sWaZesmUGuQgBqxSssUsX5PP-e4UNjfKRhS6cJk2iIut4CeDDh9WzONcdeNy34FiSYUHyTu4uYDLoSUXKVNxngcZKCAOyRLasI52_zpSuIfqDAJI5B8HH5-K4TB6=w649-h564-s-no",
+        "https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no",
+        "https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no",
       ],
     },
     {
@@ -39,7 +39,7 @@ const ImagenesHistoria = () => {
         "Se presenta formalmente ante la FAU el interés para la obtención de un comodato del terreno ubicado en Cno Pérez “El Nogal.",
       urlImagen: [
         "https://lh3.googleusercontent.com/pw/AIL4fc8B5Jh8Dm99F8Xuv7IkfpkyIBzBao2AO_6Ll8DVHUAny0mvN32UyHPM4w-hmCYgGSjkgk8sZAz0ip46t_1SGHK1X5aYFW-s56oIJK106Inmh1HhOr7PYkxOp0m6G7twGqKqQF-eMVMOILZC0wMnStXc=w649-h376-s-no",//https://photos.app.goo.gl/PxcLatbQR4wj3Ko36
-        "https://lh3.googleusercontent.com/pw/AIL4fc9CRXCXD-s0A3PhwZYttbrXR3P3sWaZesmUGuQgBqxSssUsX5PP-e4UNjfKRhS6cJk2iIut4CeDDh9WzONcdeNy34FiSYUHyTu4uYDLoSUXKVNxngcZKCAOyRLasI52_zpSuIfqDAJI5B8HH5-K4TB6=w649-h564-s-no",//https://photos.app.goo.gl/B35KELfhMidq9CgJ6
+        "https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no",//https://photos.app.goo.gl/B35KELfhMidq9CgJ6
         "https://lh3.googleusercontent.com/pw/AIL4fc-oKUF2xo06uqs6XGdIQJ5miVSfNK5iS8FwavTFclYM9oGipCCIAcAPogh7m5sBh2GchXH2sYfTG_4rWmh_2BXkXW6TeFI2WrDHcEl83prZaTZs0sZG1m66y8a_01XVW6wMzRTl7dkesoqtlzKxFcAN=w649-h542-s-no",//https://photos.app.goo.gl/cy2xpQDNVvpqDiB67
       ],
     },

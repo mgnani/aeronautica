@@ -11,7 +11,7 @@ const Cards = () => {
         "En presencia de los socios fundadores, de la Comisión Directiva conformada por el Presidente, Eduardo Oroná, la Secretaria Karen Morales y el Tesorero Ramón Ramírez, autoridades de la ETA y de la escribana se llevó a cabo la lectura, firma de los estatutos y posterior firma del libro de honor.",
       fecha: "9 de octubre de 2020",
       urlImagen:
-        "https://lh3.googleusercontent.com/pw/AIL4fc9CRXCXD-s0A3PhwZYttbrXR3P3sWaZesmUGuQgBqxSssUsX5PP-e4UNjfKRhS6cJk2iIut4CeDDh9WzONcdeNy34FiSYUHyTu4uYDLoSUXKVNxngcZKCAOyRLasI52_zpSuIfqDAJI5B8HH5-K4TB6=w649-h564-s-no",
+        "https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no",
     },
     {
       id: 2,
