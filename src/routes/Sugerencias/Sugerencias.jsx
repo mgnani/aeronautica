@@ -53,7 +53,7 @@ const Sugerencias = () => {
         email: email,
         sugerencia: sugerencia,
       };
-      postPaypal()
+      postSugerencia(content)
         .then((response) => {
           console.log('Datos de la API:', response.data);
           localStorage.setItem("sugerencia", "true");

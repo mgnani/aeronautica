@@ -14,5 +14,12 @@ export const getSugerencia = (data) => {
   return axios.get(`${port}/api/sugerencia`, data);
 };
 export const postPaypal = (data) => {
-  return axios.post(`${port}/create-payment`, data);
+  return axios.post(`http://localhost:9000/create-payment`, data);
+};
+export const executePayment = (data) => {
+  return axios.post(`${port}/execute-payment`, data);
+};
+
+export const generateSubscription = (data) => {
+  return axios.post(`${port}/generate-subscription`);
 };

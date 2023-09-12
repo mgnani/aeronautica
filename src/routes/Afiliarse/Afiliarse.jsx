@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import { postAfiliado, postPaypal } from "../../config/httprouter";
 import { ImCross } from "react-icons/im";
-
+import { generateSubscription } from "../../config/httprouter";
 const Afiliarse = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -26,15 +26,22 @@ const Afiliarse = () => {
     localStorage.removeItem("sugerencia");
   };
   useEffect(() => {
-    postPaypal()
+    generateSubscription()
+    .then(response => {
+      sePaypalLink(response.data.data.links[0].href)
+    })
+    .catch(error => {
+      console.error('Error al obtener los datos:');
+    });
+    /*postPaypal()
       .then(response => {
-        console.log('Datos de la API:', response.data.data.links);
+        console.log('Datos de la API:', response.data);
         sePaypalLink(response.data.data.links[1].href)
       })
       .catch(error => {
-        console.error('Error al obtener los datos:', error);
-      });
-
+        console.error('Error al obtener los datos:');
+      });*/
+    
 
     var url = window.location.href;
     if (url.includes("false")) {
@@ -43,7 +50,7 @@ const Afiliarse = () => {
       handleOpen()
       console.log("url falso")
       setTimeout(function () {
-        window.location.href = '/afiliarse'; 
+        //window.location.href = '/afiliarse';
       }, 3000);
     }
     if (url.includes("true")) {
@@ -59,7 +66,7 @@ const Afiliarse = () => {
             console.log('Datos de la API:', response.data.data.links);
             handleOpen()
             setTimeout(function () {
-              window.location.href = '/afiliarse';
+              //window.location.href = '/afiliarse';
             }, 3000);
           })
           .catch(error => {
@@ -68,7 +75,7 @@ const Afiliarse = () => {
           });
       }
     }
-    
+
 
   }, []);
   const afiliar = (e) => {
