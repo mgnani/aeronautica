@@ -1,3 +1,10 @@
+
+.titleMain{
+  text-align: center;
+}
+.text-ali-center{
+  text-align: center;
+}
 @media (max-width: 768px) {
   .principalContent {
     width: 100%;

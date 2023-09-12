@@ -41,28 +41,18 @@ const Sugerencias = () => {
   }
 
   const enviar = (e) => {
-     // Prevenir el comportamiento predeterminado del formulario
-
-    if (email === "" || !esEmailValido(email)) {
+     e.preventDefault(); 
+    if (email === "") {
       console.log("email vacío");
       return;
-    } else if (name === "") {
-      console.log("nombre vacío");
-      return;
-    } else if (dni === "" || isNaN(dni)) {
-      console.log("dni vacío");
-      return;
-    } else if (sugerencia === "") {
+    }  else if (sugerencia === "") {
       console.log("sugerencia vacía");
       return;
     } else {
       const content = {
         email: email,
-        name: name,
-        dni: dni,
         sugerencia: sugerencia,
       };
-      e.preventDefault();
       postPaypal()
         .then((response) => {
           console.log('Datos de la API:', response.data);
@@ -105,25 +95,17 @@ const Sugerencias = () => {
           <div className="form-container">
             <h2 className="mb-4">Formulario de sugerencias</h2>
             <span className="comentario">* Estos datos no serán públicos y tienen como objetivo crear una mejor experiencia de usuario</span>
-            <form>
+            <form onSubmit={enviar}>
               <div className="form-group">
                 <label htmlFor="correo" className="required">Correo electrónico</label>
                 <input type="email" value={email} className="form-control" name="correo" required onChange={(e) => setEmail(e.target.value)} />
-              </div>
-              <div className="form-group">
-                <label htmlFor="nombreCompleto" className="required">Nombre Completo</label>
-                <input type="text" className="form-control" name="nombreCompleto" required value={name} onChange={(e) => setName(e.target.value)} />
-              </div>
-              <div className="form-group">
-                <label htmlFor="documento" className="required">N° DOCUMENTO (Cédula/Pasaporte)</label>
-                <input type="number" className="form-control" name="documento" required value={dni} onChange={(e) => { setDni(e.target.value); console.log(e.target.value) }} />
               </div>
               <div className="form-group">
                 <label htmlFor="direccion" className="required">Sugerencia</label>
                 <textarea className="form-control" name="direccion" rows="3" maxLength="300" required value={sugerencia} onChange={(e) => setSug(e.target.value)}></textarea>
               </div>
               <div className="form-group mt-4">
-                <button className="btn btn-primary" onClick={enviar}>Enviar</button>
+              <button type="submit" className="btn btn-primary">Enviar</button>
               </div>
             </form>
           </div>

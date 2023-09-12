@@ -10,7 +10,7 @@ const Comision = () => {
     {
       id: 1,
       titulo_1: "Presidente",
-      nombreTitular: "Eduardo Otoná",
+      nombreTitular: "Eduardo Oroná",
       tanda: "Tanda: 66 - 67",
       urlImagen: eduardo,
       titulo_2: "Suplente",

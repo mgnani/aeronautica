@@ -48,18 +48,16 @@ const Afiliarse = () => {
     }
     if (url.includes("true")) {
       console.log(localStorage.getItem('userData'))
+      handleOpen()
+      setCorrecto(true)
       if (localStorage.getItem('userData')) {
         const contentString = localStorage.getItem('userData');
         const content = JSON.parse(contentString ?? "");
         console.log(content);
-        handleOpen()
-        setCorrecto(true)
         postAfiliado(content)
           .then(response => {
             console.log('Datos de la API:', response.data.data.links);
             handleOpen()
-
-            
             setTimeout(function () {
               window.location.href = '/afiliarse';
             }, 3000);
