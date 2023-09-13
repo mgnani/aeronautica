@@ -1,7 +1,25 @@
 /* movil */
+.caratula{
+  display: flex;
+  justify-content: center;
+}
+.caratula::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+filter: blur(10px); /* Ajusta el valor de blur según tus preferencias */
+  z-index: -1; /* Coloca el fondo borroso detrás de la imagen */
+}
 @media (max-width: 768px) {
   .workSpace {
     margin: 0 5%;
+    padding-top: 40px;
   }
 
   .caratula {
@@ -20,6 +38,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
   }
 
   .tituloCaratula {
@@ -42,6 +62,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .workSpace {
     margin: 0 5%;
+    padding-top: 40px;
   }
 
   .caratula {
@@ -60,6 +81,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
   }
 
   .tituloCaratula {
@@ -82,6 +105,7 @@
 @media (min-width: 1025px) {
   .workSpace {
     margin: 0 10%;
+    padding-top: 40px;
   }
 
   .caratula {
@@ -94,21 +118,28 @@
   }
 
   .imagenCaratula {
-    width: 100%;
     height: 350px;
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
   .tituloCaratula {
     position: absolute;
-    margin-left: 10%;
+    padding-left: 10%;
+    padding-bottom: .5rem;
+    width: 100vw;
     top: 300px;
     z-index: 1;
     color: #ffff;
     font-weight: 600;
+    background-color: rgba(3, 3, 48, 0.514);
+    box-shadow: 0px -15px 15px rgba(3, 3, 48, 0.514);
   }
 
   .parrafoHistoria {

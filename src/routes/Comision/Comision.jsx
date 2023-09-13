@@ -1,16 +1,18 @@
 import { useState } from "react";
 import CardComision from "./CardComision";
 import "./Comision.css";
-
+import karen from '../../assets/images/karen.jpg'
+import eduardo from '../../assets/images/eduardo.jpg'
+import ramon from '../../assets/images/ramon.jpg'
 const Comision = () => {
   // eslint-disable-next-line no-unused-vars
   const [perfiles, setPerfiles] = useState([
     {
       id: 1,
       titulo_1: "Presidente",
-      nombreTitular: "Eduardo Otoná",
+      nombreTitular: "Eduardo Oroná",
       tanda: "Tanda: 66 - 67",
-      urlImagen: "",
+      urlImagen: eduardo,
       titulo_2: "Suplente",
       nombreSuplente: "Enrique Portela",
     },
@@ -19,7 +21,7 @@ const Comision = () => {
       titulo_1: "Secretaria",
       nombreTitular: "Karen Morales",
       tanda: "Tanda: 08 - 10",
-      urlImagen: "",
+      urlImagen: karen,
       titulo_2: "Suplente",
       nombreSuplente: "Heber Rodriguez",
     },
@@ -28,7 +30,7 @@ const Comision = () => {
       titulo_1: "Tesorero",
       nombreTitular: "Ramón Ramirez",
       tanda: "Tanda: 82 - 83",
-      urlImagen: "",
+      urlImagen: ramon,
       titulo_2: "Suplente",
       nombreSuplente: "Daniel Barrios",
     },
@@ -39,21 +41,21 @@ const Comision = () => {
     {
       id: 1,
       nombreTitular: "Fernando González",
-      urlImagen: "",
+      urlImagen: "https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg",
       titulo_2: "Suplente",
       nombreSuplente: "Fernando Cabrera",
     },
     {
       id: 2,
       nombreTitular: "José López",
-      urlImagen: "",
+      urlImagen: "https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg",
       titulo_2: "Suplente",
       nombreSuplente: "Alejandro Correa",
     },
     {
       id: 3,
       nombreTitular: "Guillermo Arroqui",
-      urlImagen: "",
+      urlImagen: "https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg",
       titulo_2: "Suplente",
       nombreSuplente: "Aldo Martorano",
     },
@@ -65,7 +67,7 @@ const Comision = () => {
         <h1 className="tituloCaratula">Comisión</h1>
         <img
           className="imagenCaratula"
-          src="https://butwhytho.net/wp-content/uploads/2023/07/Hanamichi-Sakuragi-But-Why-Tho-2.jpg"
+          src="https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no"
           alt=""
         />
       </div>
@@ -104,6 +106,7 @@ const Comision = () => {
                 />
               );
             })}
+           
           </div>
         </section>
         <section>

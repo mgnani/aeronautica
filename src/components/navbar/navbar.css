@@ -1,4 +1,10 @@
 /* movil */
+.parte2 a button{
+  font-weight: 500;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: rgba(19, 88, 156, 0.623) !important;
+}
 @media (max-width: 768px) {
   .logo {
     width: 90px;

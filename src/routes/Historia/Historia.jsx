@@ -8,7 +8,7 @@ const Historia = () => {
         <h1 className="tituloCaratula">Historia</h1>
         <img
           className="imagenCaratula"
-          src="https://butwhytho.net/wp-content/uploads/2023/07/Hanamichi-Sakuragi-But-Why-Tho-2.jpg"
+          src="https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no"
           alt=""
         />
       </div>

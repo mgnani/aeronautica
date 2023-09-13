@@ -6,7 +6,10 @@ const PrincipalContent = () => {
     <>
       <div className="principalContent">
         <div className="textContent">
-          <h1 className="titleMain">AEAETADU</h1>
+          <div className="titleMain">
+          <h1 className="text-ali-center">Asociación de Ex Alumnos ETA</h1>
+          <h1 >del Uruguay</h1>
+          </div>
           <p className="textIntroduction">
             Somos la Asociación de Ex Alumnos de la Escuela Técnica de
             Aeronáutica del Uruguay, una comunidad vibrante y apasionada por la

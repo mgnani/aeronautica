@@ -11,14 +11,14 @@ const Cards = () => {
         "En presencia de los socios fundadores, de la Comisión Directiva conformada por el Presidente, Eduardo Oroná, la Secretaria Karen Morales y el Tesorero Ramón Ramírez, autoridades de la ETA y de la escribana se llevó a cabo la lectura, firma de los estatutos y posterior firma del libro de honor.",
       fecha: "9 de octubre de 2020",
       urlImagen:
-        "https://butwhytho.net/wp-content/uploads/2023/07/Hanamichi-Sakuragi-But-Why-Tho-2.jpg",
+        "https://lh3.googleusercontent.com/pw/AIL4fc9woedg5TlTurjkEH15golxYWM4LcMPyfjyDxeM5BcTbO0Nhx3e6RB3vlaYlouBX4UQ0nxNHP9vs9Vbmaa73cb7_K9KJ6H-VfS8-GYgCLN8tiHpiIv5YJW26HbN3Y60NdmHNfYHQ16SW4oPBBaU9J46=w886-h498-s-no",
     },
     {
       id: 2,
       titulo: "Visita al Comandante en Jefe",
       texto: "Visita al Comandante en Jefe FAU",
       fecha: "29 de octubre de 2020",
-      urlImagen: "https://photos.app.goo.gl/FkizncjrzSBVfYfM7",
+      urlImagen: "https://lh3.googleusercontent.com/pw/AIL4fc8o4H_pDr2lOEgtuOHb2r70Eaq0spZHGAcyqD4N2up2lcD0gjvBeUiFr9ce3e-UwF2LeDuGjTV5xwTtG3E-pAVsX21bwgyRBNqYOI9Ia969Q0UKQzPA3rLHR3cBieQXNkuBQ8oq7dhAzcW9laV1zbyD=w716-h537-s-no?authuser=0",//https://photos.app.goo.gl/FkizncjrzSBVfYfM7
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const Cards = () => {
       texto:
         "El Director de la ETA Cnel (Av) Heriberto Gancio entrega al Presidente E. Oroná una placa en conmemoración por el 1er aniversario.",
       fecha: " --  ",
-      urlImagen: "https://photos.app.goo.gl/D2gmTZAXafZuhnTTA",
+      urlImagen: "https://lh3.googleusercontent.com/pw/AIL4fc_U7faG9EVeJmO7iF0xqadKjOyg3leXeI2fbydyWxxnnTSIg5bb9DjXQwljk4loxI3S1FvKaEvFqAVmuQh7hx-RR5p9xVoLOXeQWt57tjGJwC4ZbTP3P7xqbXE_uy9Ygxs5db-MItrrZz_tZFH2SxEQ=w1299-h585-s-no",//https://photos.app.goo.gl/D2gmTZAXafZuhnTTA
     },
   ]);
 

@@ -17,6 +17,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .contorno {
     margin: 0 5%;
+    padding-top: 40px;
   }
 
   .parrafo {
@@ -30,6 +31,7 @@
 @media (min-width: 1025px) {
   .contorno {
     margin: 0 10%;
+    padding-top: 40px;
   }
 
   .parrafo {

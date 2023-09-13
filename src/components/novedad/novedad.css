@@ -1,13 +1,20 @@
 /* movil */
+.structure img{
+  border-radius: 5px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
 @media (max-width: 768px) {
   .structure {
     height: auto;
     width: 100%;
-    border: solid 1px black;
-    border-radius: 5px;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 15px;
     margin: 0% 0 5% 0;
+    
   }
-
+  
   .image {
     width: 100%;
     height: 200px;
@@ -29,11 +36,11 @@
   }
 
   .date {
-    padding: 2% 5%;
+    padding: 3% 5%;
     border-radius: 0 0 5px 5px;
     border-top: 1px solid grey;
     display: flex;
-    background-color: rgb(243, 244, 246);
+    align-items: center;
   }
 }
 
@@ -48,8 +55,8 @@
   .structure {
     height: auto;
     width: 32%;
-    border: solid 1px black;
-    border-radius: 5px;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 15px;
   }
 
   .image {
@@ -76,11 +83,11 @@
   }
 
   .date {
-    padding: 2% 5%;
+    padding: 3% 5%;
     border-radius: 0 0 5px 5px;
     border-top: 1px solid grey;
     display: flex;
-    background-color: rgb(243, 244, 246);
+    align-items: center;
   }
 }
 
@@ -95,8 +102,8 @@
   .structure {
     height: auto;
     width: 32%;
-    border: solid 1px black;
-    border-radius: 5px;
+    border: solid 2px rgb(109, 109, 109);
+    border-radius: 15px;
   }
 
   .image {
@@ -123,10 +130,10 @@
   }
 
   .date {
-    padding: 2% 5%;
+    padding: 3% 5%;
     border-radius: 0 0 5px 5px;
     border-top: 1px solid grey;
     display: flex;
-    background-color: rgb(243, 244, 246);
+    align-items: center;
   }
 }

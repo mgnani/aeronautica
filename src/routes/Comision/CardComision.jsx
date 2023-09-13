@@ -4,7 +4,7 @@ import "./CardComision.css";
 const CardComision = (props) => {
   return (
     <div className="card">
-      <div className="fotoRetrato">foto</div>
+      <div className="fotoRetrato"><img src={props.urlImagen} /></div>
       <div className="detalles">
         <div>
           <div className="titular">
