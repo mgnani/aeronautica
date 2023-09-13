@@ -50,7 +50,7 @@ const Afiliarse = () => {
       handleOpen()
       console.log("url falso")
       setTimeout(function () {
-        //window.location.href = '/afiliarse';
+        window.location.href = '/afiliarse';
       }, 3000);
     }
     if (url.includes("true")) {
@@ -117,10 +117,17 @@ const Afiliarse = () => {
         especialidad: especialidad,
         numCobr: numCobr,
       };
-      const contentString = JSON.stringify(content);
-      localStorage.setItem('userData', contentString);
-      window.location.href = paypalLink;
-
+        console.log(content)
+      postAfiliado(content)
+          .then(response => {
+            setTimeout(function () {
+              window.location.href = paypalLink;
+            }, 1500);
+          })
+          .catch(error => {
+            console.error('Error al obtener los datos:', error);
+            localStorage.removeItem('userData');
+          });
     }
   };
 
