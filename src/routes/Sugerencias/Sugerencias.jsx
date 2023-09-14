@@ -6,6 +6,7 @@ import { postSugerencia, getSugerencia , postPaypal} from "../../config/httprout
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import { ImCross } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 const Sugerencias = () => {
   const [email, setEmail] = useState("");
@@ -22,13 +23,6 @@ const Sugerencias = () => {
   };
 
   useEffect(() => {
-    getSugerencia()
-      .then(response => {
-        console.log('Datos de la API:', response.data);
-      })
-      .catch(error => {
-        console.error('Error al obtener los datos:', error);
-      });
     if (localStorage.getItem("sugerencia")) {
       handleOpen();
       console.log("sugerencia");

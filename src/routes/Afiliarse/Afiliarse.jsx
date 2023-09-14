@@ -5,7 +5,7 @@ import { getTest } from "../../config/httprouter";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import { postAfiliado, postPaypal } from "../../config/httprouter";
-import { ImCross } from "react-icons/im";
+useState
 import { generateSubscription } from "../../config/httprouter";
 const Afiliarse = () => {
   const [email, setEmail] = useState("");
@@ -33,50 +33,6 @@ const Afiliarse = () => {
     .catch(error => {
       console.error('Error al obtener los datos:');
     });
-    /*postPaypal()
-      .then(response => {
-        console.log('Datos de la API:', response.data);
-        sePaypalLink(response.data.data.links[1].href)
-      })
-      .catch(error => {
-        console.error('Error al obtener los datos:');
-      });*/
-    
-
-    var url = window.location.href;
-    if (url.includes("false")) {
-      localStorage.clear();
-      setCorrecto(false)
-      handleOpen()
-      console.log("url falso")
-      setTimeout(function () {
-        //window.location.href = '/afiliarse';
-      }, 3000);
-    }
-    if (url.includes("true")) {
-      console.log(localStorage.getItem('userData'))
-      handleOpen()
-      setCorrecto(true)
-      if (localStorage.getItem('userData')) {
-        const contentString = localStorage.getItem('userData');
-        const content = JSON.parse(contentString ?? "");
-        console.log(content);
-        postAfiliado(content)
-          .then(response => {
-            console.log('Datos de la API:', response.data.data.links);
-            handleOpen()
-            setTimeout(function () {
-              //window.location.href = '/afiliarse';
-            }, 3000);
-          })
-          .catch(error => {
-            console.error('Error al obtener los datos:', error);
-            localStorage.removeItem('userData');
-          });
-      }
-    }
-
-
   }, []);
   const afiliar = (e) => {
     e.preventDefault(); // Prevenir el comportamiento predeterminado del formulario
@@ -117,10 +73,16 @@ const Afiliarse = () => {
         especialidad: especialidad,
         numCobr: numCobr,
       };
-      const contentString = JSON.stringify(content);
-      localStorage.setItem('userData', contentString);
-      window.location.href = paypalLink;
-
+      
+      postAfiliado(content)
+          .then(response => {
+            handleOpen()
+            window.location.href = paypalLink;
+          })
+          .catch(error => {
+            console.error('Error al obtener los datos:', error);
+            localStorage.removeItem('userData');
+          });
     }
   };
 
@@ -133,7 +95,7 @@ const Afiliarse = () => {
         aria-describedby="modal-modal-description"
       >
         <>
-          {correcto ?
+          {correcto ??
             <Box className="boxModal modal-sugerencia">
               <h1 onClick={handleClose} className="iconoCerrar">
                 <ImCross />
@@ -142,15 +104,7 @@ const Afiliarse = () => {
               <img src="https://png.pngtree.com/png-vector/20190228/ourmid/pngtree-check-mark-icon-design-template-vector-isolated-png-image_711433.jpg" className="check-img" alt="Check" />
               <p>Muchas gracias</p>
             </Box>
-            :
-            <Box className="boxModal modal-sugerencia">
-              <h1 onClick={handleClose} className="iconoCerrar">
-                <ImCross />
-              </h1>
-              <p className="tituloActividad">Error en el proceso de pago</p>
-              <img src="https://t4.ftcdn.net/jpg/06/35/28/57/240_F_635285754_00gZYzdCt6BzgUCNpNZqvmxzxFefchc9.jpg" className="check-img" alt="Check" />
-              <p>Usted canceló el proceso de pago</p>
-            </Box>}
+            }
         </>
       </Modal>
       <div className="row justify-content-center form-cont">

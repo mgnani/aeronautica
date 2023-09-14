@@ -6,6 +6,7 @@ import { GiPositionMarker } from "react-icons/gi";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -56,9 +57,9 @@ const Footer = () => {
             </a>
           </div>
           <div className="btn-footer-cont">
-            <a href="/sugerencia">
+           <Link to="/sugerencia">
             Enviar sugerencia
-            </a>
+            </Link>
           </div>
         </div>
 
